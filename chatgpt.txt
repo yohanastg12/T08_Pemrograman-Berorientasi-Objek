@@ -1,0 +1,30 @@
+src\academic\driver\Driver1.java:221: error: cannot find symbol
+                            Transcript transcript = new Transcript(studentId);
+                            ^
+  symbol:   class Transcript
+  location: class Driver1
+src\academic\driver\Driver1.java:221: error: cannot find symbol
+                            Transcript transcript = new Transcript(studentId);
+                                                        ^
+  symbol:   class Transcript
+  location: class Driver1
+2 errors
+
+apa maksud dari error diatas
+
+
+src\academic\driver\Driver1.java:210: error: cannot find symbol
+                    targetStudent.getYear() + "|" + targetStudent.getStudyProgram() + "|" + targetStudent.getGpa() + "|" + 
+targetStudent.getTotalCredit());
+                                                                                                         ^
+  symbol:   method getGpa()
+  location: variable targetStudent of type Student
+src\academic\driver\Driver1.java:210: error: cannot find symbol
+                    targetStudent.getYear() + "|" + targetStudent.getStudyProgram() + "|" + targetStudent.getGpa() + "|" + 
+targetStudent.getTotalCredit());
+
+             ^
+  symbol:   method getTotalCredit()
+  location: variable targetStudent of type Student
+2 errors
+maksud error diatas
